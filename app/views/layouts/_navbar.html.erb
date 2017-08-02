@@ -1,0 +1,10 @@
+<%= nav_bar static: :top  do%> 
+    <%= menu_group do %>
+        <%= menu_item "Home", '/' %>
+        <%= menu_item "Metro", metro_path %>
+        <%= drop_down "Article" do %>
+          <%= menu_item "All", articles_path %>
+          <%= menu_item "New", new_article_path %>
+      <% end %>
+    <% end %>
+<% end %>

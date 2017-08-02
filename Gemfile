@@ -6,7 +6,9 @@ git_source(:github) do |repo_name|
 end
 
 gem 'jquery-rails'
-gem 'less-rails-bootstrap'
+gem "less-rails"
+gem "twitter-bootstrap-rails"
+
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.1.2'
