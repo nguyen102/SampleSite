@@ -1,0 +1,11 @@
+#article table,
+#article tr,
+#article td,
+#article th {
+  border: 1px;
+  border-style: solid;
+}
+#article td,
+#article th {
+  padding: 10px;
+}
